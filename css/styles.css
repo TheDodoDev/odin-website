@@ -79,3 +79,44 @@ a{
     width: 480px;
     height: auto;
 }
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.info-header{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: center;
+}
+
+.box{
+    border-radius: 16px;
+    border: 2px solid#3882F6;
+    width: 180px;
+    height: 180px;
+}
+
+.info-row{
+    display: flex;
+    justify-content: center;
+    gap: 36px;
+    flex: 1 0 auto;
+}
+
+.info-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 200px;
+    flex-direction: 0 0 auto;
+}
+
+.info-subtext{
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+}
