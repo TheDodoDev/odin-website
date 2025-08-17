@@ -26,7 +26,7 @@ a{
 .logo a{
     color: #FFFFFF;
     font-weight: 900;
-    font-size: 27px;
+    font-size: 24px;
 }
 
 .header-links{
@@ -41,4 +41,41 @@ a{
 .header-links a{
     font-size: 18px;
     color: #E5E7EB
+}
+
+.container{
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    gap: 64px;
+    align-items: center;
+    height: 400px;
+}
+
+.hero{
+    color: #F9FAF8;
+    width: 400px;
+}
+
+.hero .text{
+    font-weight: 900;
+    font-size: 48px;
+    margin: 0px;
+}
+
+.hero .subtext{
+    font-size: 18px;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color:white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-width: 0px;
+}
+
+.container img{
+    width: 480px;
+    height: auto;
 }
