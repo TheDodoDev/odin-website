@@ -187,3 +187,10 @@ a{
 .white{
     color: white;
 }
+
+footer{
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px;
+    color:#E5E7EB;
+}
